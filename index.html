@@ -1,0 +1,466 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>慕课网-首页</title>
+	<link rel="stylesheet" type="text/css" href="./css/hd_footer.css">
+	<link rel="stylesheet" type="text/css" href="./css/global.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+<!-- 头部开始 -->
+    <div class="head">
+       <div class="logo_img" title="logo" alt="logo_img"></div>
+       <ul class="menu" id="menu">
+         <li style="background-color: #104974"><a href="./index.html">首页</a></li>
+         <div class="div_v"></div>
+         <li><a href="./lesson_center.html" target="_blank">课程</a></li>
+         <div class="div_v"></div>
+         <li><a href="./learn_center.html">学习</a></li>
+         <div class="div_v"></div>
+         <li><span style="font-size: 23px; font-family: Microsoft YaHei,'宋体';cursor: pointer;">客户端</span>
+             <ul class="menu_sub" id="menu_sub" style="display: none;">
+                <li><a>安卓客户端</a></li>
+                <li><a>IOS客户端</a></li>
+             </ul>
+         </li>
+       </ul>
+       <div class="menu_right" id="menu_right">
+	       <div class="search">
+	         <input type="text" name="" placeholder="请输入关键词查找" class="search_txt" id="search_txt">
+	         <div class="search_btn" id="search_btn"></div>
+	       </div>
+	       <div class="login_reg" id="login_reg">
+	          <span><a onclick="denglu()">登录</a></span>
+	          <span>|</span>
+	          <span><a onclick="zhuce()">注册</a></span>
+	       </div>
+       </div>
+    </div>
+<!-- 头部结束 -->
+<!-- 轮播图开始 -->
+	<div class="banner_Div" id="banner_Div">
+	   <div class="banner_Img" id="banner_Img">
+	      <img class="showDiv" src="./img/banner.png">
+	      <img class="hideDiv" src="./img/banner_01.png">
+	      <img class="hideDiv" src="./img/banner_02.png">
+	      <img class="hideDiv" src="./img/banner_03.png">
+	      <img class="hideDiv" src="./img/banner_04.png">
+	      <span id="banner_Left" class="banner_LR"></span>
+	      <span id="banner_Right" class="banner_LR"></span>
+	   </div>
+	   <div id="banner_Page"></div>
+	</div>
+<!-- 轮播图结束 -->
+<!-- 我们该学什么开始 -->
+    <div class="what_Learn">
+        <h2>[我们该学什么？]</h2>
+    <!-- 技术方向 -->
+        <h3>选择喜欢的技术方向</h3>
+        <div class="what_point">
+            <div class="point_left"><img src="./img/technology_01.jpg"></div>
+            <div class="point_mid">
+               <div class="point_midUp">
+	               <img src="./img/technology_02.jpg">
+	               <img src="./img/technology_03.jpg">
+	               <img src="./img/technology_04.jpg">
+               </div>
+               <div class="point_midDown">
+	               <img src="./img/technology_06.jpg">
+	               <img src="./img/technology_07.jpg">
+	               <img src="./img/technology_08.jpg">
+               </div>
+            </div>
+            <div class="point_right"><img src="./img/technology_05.jpg"></div>
+        </div>
+    <!-- 推荐课程 -->
+        <h3>推荐课程</h3>
+        <div class="what_lesson" id="what_lesson">
+        </div>
+        <h3 style="text-decoration: underline;"><a id="moreLesson">查看更多课程</a></h3>
+    </div>
+<!-- 我们该学什么结束 -->
+<!-- 我们该怎么学开始 -->
+    <div class="how_learn">
+        <h2>[我该怎么学？]</h2>
+        <!-- 图文1 -->
+        <div class="tuwen1">
+            <div class="tuwen1_img"><img src="./img/mobile.jpg"></div>
+            <div class="tuwen1_txt">
+              <div class="tuwen1_title"><h3>项目实战驱动</h3><a style="direction: underline;">了解更多></a></div>
+              <div class="tuwen1_contex">
+              <span>项目实战是公司培训的一大特色，也是卓越课程中的精华，一套好的项目实战课程的核心就需要有一套优秀的项目管控体系想配套，卓越学术团队由多个来自以研发实力著称的知名嵌入式企业的项目管理人员，技术专家和一批又丰富项目实战教学，教学经验丰富的教师共同组成，因此卓越的项目管控体系模型主要源自于多个知名嵌入式产品研发企业，是这些企业无数个优秀的嵌入式研发人员用多年项目开发管理经验总结出来的精华，是他们智慧的结晶。</span>
+              </div>
+           </div>
+        </div>
+        <!-- 图文2-->
+        <div class="tuwen2">
+            <div class="tuwen2_img"><img src="./img/success.jpg"></div>
+            <div class="tuwen2_txt">
+              <div class="tuwen2_title"><h3>O2O+威客教学模式</h3><a style="direction: underline;">了解更多></a></div>
+              <div class="tuwen2_contex">
+              <span>学习+工作模式，也称“3+2+1”模式，即“3”个层面：知识点学习、设计课训练、项目实战。学员进入设计室后进行设计课训练，考试通过后进入项目实战演练，针对不理解的知识点进行强化学习，力争循序渐进，保证完成作品。“2”种方式：采用线下强化加上线上学习管理的方式，有为期2个月的强化训练，和线上知识学习、练习。“1”月带薪：通过3个层次学习强化后，学员将进入威客带薪项目实战阶段，在威客设计室接带薪项目，也可直接进入大型企业带薪实习。</span>
+              </div>
+           </div>        
+        </div>
+        <!-- 图文3-->
+        <div class="tuwen3">
+            <div class="tuwen3_img"><img src="./img/computer.jpg"></div>
+            <div class="tuwen3_txt">
+              <div class="tuwen3_title"><h3>创新工场</h3><a style="direction: underline;">了解更多></a></div>
+              <div class="tuwen3_contex">
+              <span>卓越在线创新工场项目致力于吸纳有自主创作激情的工作、团队、个人，以及包括创新思维创意项目的构思。</span>
+              </div>
+           </div>  
+        </div>
+    </div>
+<!-- 我们该怎么学结束 -->
+<!-- 为什么选传一慕课开始 -->
+<div class="why_learn">
+    <div class="mid_why">
+    <h2>[为什么选传一慕课？]</h2>
+    <h3>专业师资团队</h3>
+    <h4>21名全职教师 平均8年项目经验 面对面小班教学</h4>
+    <!-- 师资团队 -->
+        <div class="why_teacher" id="teachers">
+            <div>
+                <img src="./img/teacher_01.jpg">
+                <span><b style="font-size: 22px;">李某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div>
+            <div>
+                <img src="./img/teacher_02.jpg">
+                <span><b style="font-size: 22px;">赵某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div>  
+            <div>
+                <img src="./img/teacher_03.jpg">
+                <span><b style="font-size: 22px;">钱某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div> 
+            <div>
+                <img src="./img/teacher_04.jpg">
+                <span><b style="font-size: 22px;">孙某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div>  
+            <div style="/*width: 580px*/;">
+                <img src="./img/teacher_05.jpg">
+                <span><b style="font-size: 22px;">王某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div> 
+            <div>
+                <img src="./img/teacher_06.jpg">
+                <span><b style="font-size: 22px;">周某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div>
+            <div>
+                <img src="./img/teacher_07.jpg">
+                <span><b style="font-size: 22px;">谭某某</b>&nbsp;&nbsp;&nbsp;<label>金牌项目经理/高级讲师</label>
+                      <p style="margin:10px;">精通C/C++,PHP开发语言，贼51单片机和ARM体系结构以及基于ARM体系上应用软件动开发，深入研究过操作系统原理，精通基于ARM的uCos或Linux 等多种嵌入式系统上的嵌入式开发</p>
+                </span>
+            </div>
+        </div>
+        <!-- 学员作品 -->
+        <h3 style="margin-top:20px;">学员作品</h3>
+		<h4>专业的课程，严格的企业标准项目考核，一切以实战为目标</h4>
+        <div class="why_works" id="why_works">		    
+		       <div id="works">
+			    <div class="works_img" id="worker1">
+	                <div>
+	                     <div><img src="./img/worker_01.jpg"></div>
+	                     <div>
+		                     <p>阶段名称：基础C语言强化</p>
+		                     <p>项目名称：餐馆点餐系统</p>
+	                     </div>
+	                </div>
+	                <div>
+	                     <div><img src="./img/worker_02.jpg"></div>
+	                     <div>
+		                     <p>阶段名称：嵌入式系统移植底层驱动开发</p>
+		                     <p>项目名称：GPS车载导航</p>
+	                     </div>
+	                </div>
+	                <div>
+	                     <div><img src="./img/worker_03.jpg"></div>
+	                     <div>
+		                     <p>阶段名称：jacaSE网络编程</p>
+		                     <p>项目名称：网络版坦克大战</p>
+	                     </div>
+	                </div>
+	                <div>
+	                     <div><img src="./img/worker_04.jpg"></div>
+	                     <div>
+		                     <p>阶段名称：行业应用</p>
+		                     <p>项目名称：停车位 APP</p>
+	                     </div>
+	                </div>
+	                <div>
+	                     <div><img src="./img/worker_05.jpg"></div>
+	                     <div>
+		                     <p>阶段名称：Android移动应用</p>
+		                     <p>项目名称：Quicklife APP</p>
+	                     </div>
+	                </div>
+			    </div>
+			    <div class="works_img" id="worker2"></div>
+			  </div>
+	    </div>
+	    <!-- 企业合作项目 -->
+	    <div calss="why_project" id="why_project">
+	       <h3>企业合作项目</h3>
+	       <h4>创新工场，对接企业项目，为企业定制人才</h4>
+	       <div class="project_img" id="project_img">
+	          <div>
+		          <div><img src="./img/prj_01.jpg"></div>
+		          <div><a>帝王三国</a></div>
+	          </div>
+	          <div>
+	              <div><img src="./img/prj_02.jpg"></div>
+	              <div><a>幻想无双</a></div>
+	          </div>
+	          <div>
+	              <div><img src="./img/prj_03.jpg"></div>
+	              <div><a>帝王争霸</a></div>
+	          </div>
+	          <div>
+	              <div><img src="./img/prj_04.jpg"></div>
+	              <div><a>热血帝王</a></div>
+	          </div>
+	       </div>
+	    </div>
+    </div>
+</div>
+<!-- 为什么选传一慕课结束 -->
+<!-- 我能学会吗开始 -->
+<div class="can_learn">
+   <div class="can_mid">
+      <h2>[我能学会吗？]</h2>
+      <h3>心得体会</h3>
+      <h4>让学霸用亲身经历告诉你，学霸是怎样练成的</h4>
+      <div class="canImg_top">
+         <div class="can_div"><img src="./img/student_1.jpg"></div>
+         <div class="can_div">
+	         <div>
+	            <img src="./img/student_14.jpg">
+	            <img src="./img/student_7.jpg">
+	         </div>
+	         <div>
+	            <img src="./img/student_18.jpg">
+	            <img src="./img/student_19.jpg">
+	         </div>
+         </div>
+         <div class="can_div"><img src="./img/student_2.jpg"></div>
+         <div class="can_div">
+	         <div>
+	            <img src="./img/student_17.jpg">
+	            <img src="./img/student_6.jpg">
+	         </div>
+	         <div>
+	            <img src="./img/student_20.jpg">
+	            <img src="./img/student_21.jpg">
+	         </div>
+         </div>
+         <div class="can_div"><img src="./img/student_3.jpg"></div>
+      </div>
+      <div class="canImg_buttom">
+        <div class="can_div">
+            <div>
+               <img src="./img/student_8.jpg">
+               <img src="./img/student_24.jpg">
+            </div>
+            <div>
+               <img src="./img/student_11.jpg">
+               <img src="./img/student_13.jpg">
+            </div>
+        </div>
+        <div class="can_div"><img src="./img/student_4.jpg"></div>
+        <div class="can_div">
+            <div>
+               <img src="./img/student_22.jpg">
+               <img src="./img/student_23.jpg">
+            </div>
+            <div>
+               <img src="./img/student_12.jpg">
+               <img src="./img/student_9.jpg">
+            </div>
+        </div>
+        <div class="can_div"><img src="./img/student_5.jpg"></div>
+        <div class="can_div">
+            <div>
+               <img src="./img/student_16.jpg">
+               <img src="./img/student_15.jpg">
+            </div>
+            <div>
+               <img src="./img/student_25.jpg">
+               <img src="./img/student_10.jpg">
+            </div>
+        </div>
+      </div>
+   </div>
+</div>
+<!-- 我能学会吗结束 -->
+<!-- 就业怎么样开始 -->
+<div class="how_job">
+    <div class="job_mid">
+       <h2>[就业怎么样？]</h2>
+       <div><img src="./img/employment.jpg"></div>
+       <div class="job_img">
+          <div><dl><dd>合 作</dd><dd>伙 伴</dd></dl></div>
+          <div class="job_company">
+             <div><img src="./img/partner_01.png"></div>
+             <div><img src="./img/partner_02.png"></div>
+             <div><img src="./img/partner_03.png"></div>
+             <div><img src="./img/partner_04.png"></div>
+             <div><img src="./img/partner_05.png"></div>
+             <div><img src="./img/partner_06.png"></div>
+             <div><img src="./img/partner_07.png"></div>
+          </div>
+          <div style="padding-top:15px;"><img src="./img/add.png""></div>
+       </div>
+    </div>
+</div>
+<!-- 就业怎么样结束 -->
+<!-- 尾部banner开始 -->
+<div class="ft_banner">
+   <div class="ftBanner_mid">
+      <h2>学IT？高新就业？一定一定不要错过传一MOOC</h2>
+      <h3>已有8,546,874人在传一MOOC上学习</h3>
+      <div class="ftBanner_btn">你还在等什么？</div>
+   </div>
+</div>
+<!-- 尾部banner结束 -->
+<!-- ////////////////////固定广告条//////////////////// -->
+    <div class="float_banner">
+       <div>
+           <div><img src="./img/sidebar_img01.jpg"></div>
+           <div class="banner_line"></div>
+           <div><img src="./img/sidebar_img02.jpg"></div>
+        </div>
+        <div class="banner_line0">
+           <div><img src="./img/sidebar_img03.jpg"></div>
+           <div class="banner_line"></div>
+           <div><img src="./img/sidebar_img04.jpg"></div>
+        </div>
+        <div class="banner_line0">
+           <div><img src="./img/sidebar_img05.jpg"></div>
+           <div class="banner_line"></div>
+           <div><img src="./img/sidebar_img06.jpg"></div>
+        </div>
+        <div class="banner_line0">
+           <div><img src="./img/sidebar_img07.jpg"></div>
+           <div class="banner_line"></div>
+           <div><img src="./img/sidebar_img08.jpg"></div>
+        </div>
+        <div class="banner_line0">
+           <div><img src="./img/sidebar_img09.jpg"></div>
+           <div class="banner_line"></div>
+           <div><img src="./img/sidebar_img10.jpg"></div>
+        </div>
+        <div class="banner_line0">
+           <div><img src="./img/sidebar_img11.jpg"></div>
+        </div>
+    </div>
+<!-- 尾部开始 -->
+    <div class="footer" style="/*display: none*/;">
+        <div class="footer_contex">
+	       <div class="footer_left">
+	          <dl>
+	             <dt><strong>关于我们</strong></dt>
+	             <dd><a>关于我们</a></dd>
+	             <dd><a>常见问题</a></dd>
+	             <dd><a>法律条款</a></dd>
+	          </dl>
+	          <dl>
+	             <dt><strong>联系我们</strong></dt>
+	             <dd><a>联系我们</a></dd>
+	             <dd><a>意见反馈</a></dd>
+	          </dl>
+	          <dl>
+	             <dt><strong>关注我们</strong></dt>
+	             <dd><img src="./img/MOOC_QCcode.jpg"><img src="./img/wechat_QCcode.jpg" style="margin-left: 30px;"></dd>
+	          </dl>
+	       </div>
+	       <div class="footer_right">
+	          <dl>		        
+		        <dt>Copyright 2014-2017</dt>
+			       <dd>传一学院</dd>
+			       <dd>All Right Reserved</dd>
+		        </dl>
+			  <dl><img src="./img/logo2.png"></dl>
+	       </div>
+        </div>
+    </div>
+<!-- 尾部结束 -->
+
+<!-- /////////////////////////////////////////隐藏的登录、注册/////////////////////////////////////// -->
+ <div id="bg" style="display: none;"></div>
+ <div class="login-reg" id="user_contxt">
+<!--  ////////////////隐藏的登录框 /////////////////-->
+     <div class="dl-msg" id="login_msg" style="display:none;">
+         <div class="login_title">==========登录==========</div>
+         <span id="close_login"><img src="./img/close.png"></span>
+         <form class="login_contex">
+           <ul>
+
+              <li><label>用户名：</label><a>快速注册</a></li>
+              <li><input type="text" id="users" class="usr-pwd"></li>
+              <li><span class="spanstyle"></span></li>
+
+              <li><label>密码：</label><a>忘记密码？</a></li>
+              <li><input type="password" id="password" class="usr-pwd"></li>
+              <li><span class="spanstyle"></span></li>
+
+              <li><label class="yzm">验证码：</label></li>
+              <li><input type="text" id="login_code" class="code_txt"><span id="code">验证码区域</span></li>
+              <li><span class="spanstyle"></span></li>
+
+              <li><div id="login_btn">登录</div><div id="loginReg_btn" onclick="zhuce()">注册</div></li>
+
+           </ul>
+         </form>
+     </div>
+<!--  ////////////////隐藏的注册框 //////////////////-->
+     <div class="zc-msg" id="regist_msg" style="display:none;">
+         <div class="regist_title">==========注册==========</div>
+         <span id="close_regist"><img src="./img/close.png"></span>
+          <form class="regist_contex">
+           <ul>
+
+              <li><label>用户名：</label></li>
+              <li><input type="text" id="reg_users" class="usr-pwd" placeholder="请输入字母开头5-9位字符"></li>
+              <li><span class="spanstyle" id="Usr_result"></span></li>
+
+              <li><label>密码：</label></li>
+              <li><input type="password" id="reg_password" class="usr-pwd" placeholder="请输入6位以上数字"></li>
+              <li><span class="spanstyle" id="Pwd_result"></span></li>
+              
+              <li><label>确认密码：</label></li>
+              <li><input type="password" id="reg_repassword" class="usr-pwd" placeholder="请重新确认密码"></li>
+              <li><span class="spanstyle" id="rePwd_result"></span></li>
+
+              <li><label>电子邮箱：</label></li>
+              <li><input type="text" id="reg_email" class="usr-pwd" placeholder="请填写您的邮箱地址"></li>
+              <li><span class="spanstyle" id="Mail_result"></span></li>
+
+              <li><div id="regist_btn">注册</div><div id="regReset_btn">重置</div></li>
+
+           </ul>
+         </form>
+     </div>
+</div>
+<!--/////////////////////////////////////////隐藏的登录、注册结束/////////////////////////////////////// -->
+</body>
+<!-- 引用全局js -->
+<script type="text/javascript" src="./js/global.js"></script>
+<!-- 引用头部尾部js -->
+<script type="text/javascript" src="./js/hd_footer.js"></script>
+<!-- 引用首页js -->
+<script type="text/javascript" src="./js/index.js"></script>
+</html>

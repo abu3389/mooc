@@ -1,0 +1,179 @@
+﻿/*视频中心中部内容样式*/
+.video_mid{
+   min-height: 1000px;
+   width: 1040px;
+   margin:auto;
+   /*border: 1px solid red;*/
+}
+/*视频中心左部分内容*/
+.video_left{
+	display: inline-block;
+	min-height: 1000px;
+	/*border: 1px solid green;*/
+	width: 738px;
+	vertical-align: top;
+
+}
+.video{
+	min-height: 400px;
+	/*border: 1px solid blue;*/
+}
+/*课程介绍*/
+.descript {
+	padding: 10px 20px;
+	border: 1px solid #B1B1B1;
+}
+.descript img{
+  display: block;
+  margin:auto;
+}
+.descript span{
+	display: block;
+	padding: 10px 0;
+}
+/*课程章节*/
+.section{
+	padding: 30px 20px;
+	border: 1px solid #B1B1B1;
+}
+.section div{
+	padding-bottom: 20px;
+}
+.section p{
+	padding: 10px 0;
+}
+.section span{
+	font-weight: bold;
+}
+/*视频中心右部分内容*/
+.video_right{
+	display: inline-block;
+	min-height: 1000px;
+    width: 290px;
+    /*border: 1px solid black;*/
+}
+/*视频章节、我的笔记*/
+.videoMsg{
+	width: 290px;
+	min-height: 414px;
+	/*border: 1px solid green;*/
+}
+/*视频章节、我的笔记选项卡*/
+.videoTab ul{
+	font-size: 0;
+}
+.videoTab ul li{
+   display: inline-block;
+   background-color: #252525;
+   color: #727272;
+   font-size: 18px;
+   height: 50px;
+   line-height: 50px;
+   width: 145px;
+   text-align: center;
+   cursor: pointer;
+}
+.videoTab ul li:hover{
+	background-color: #7EB1EB;
+    color: white;
+}
+/*视频章节、我的笔记内容*/
+.videoContex{
+	background-color: #404040;
+	height: 365px;
+}
+/*视频章节*/
+.videoSection{
+	overflow-y: auto;
+}
+.videoSection ul li{
+	height: 30px;
+	line-height: 30px;
+	color: #A5B0AB;	
+	cursor: pointer;
+	padding:0 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.videoSection ul li:hover{
+	background-color: #7EB1EB;
+    color: white;
+}
+/*视频笔记*/
+.videoMyNote{
+   margin: auto;
+   padding:10px;
+}
+.myNoteTxt{
+	background-color: white;
+	height: 250px;
+	width: 250px;
+	padding:10px;
+	overflow-y: auto; 
+}
+/*评分*/
+.lessonScore{
+	margin-top:30px;
+}
+.pinfen_title span,.pinfen_title label{
+	display: inline-block;
+	vertical-align: middle;
+}
+.pinfen_title label{
+    padding-left: 20px;
+}
+.pinfen_title label img{
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.pinfen_content{
+	min-height: 250px;
+	border: 1px solid #B1B1B1;
+	padding:10px;
+}
+.score{
+	height: 150px;
+	width: 268px;
+	border-bottom: 2px solid #878787;
+}
+.score .scoreName,.score .scoreNum{
+	display: inline-block;
+	vertical-align: middle;
+}
+.score .scoreName{
+    height: 150px;
+}
+.score .scoreName p{
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.score .scoreNum{
+   font-size: 50px;
+   font-weight: bold;
+   float: right;
+   padding:  40px 30px;
+}
+/*分享*/
+.share{
+	margin:auto;
+	text-align: center;
+	height: 100px;
+}
+.share:before{
+	content: "";
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.shareImg{
+	display: inline-block;
+	vertical-align: middle;
+}
+.shareImg img{
+	padding:0 12px;
+	cursor: pointer;
+}

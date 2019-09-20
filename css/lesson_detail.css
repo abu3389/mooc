@@ -1,0 +1,169 @@
+/*课程详情样式*/
+.detail_mid{
+	width: 1040px;
+	min-height: 1400px;
+	margin:auto;
+	margin-top:30px;
+	/*border: 1px solid red;*/
+}
+/*课程基本信息*/
+.lesson_msg{
+	height: 270px;
+	/*border: 1px solid green;*/
+	padding: 0 20px;
+}
+.lessonName p{
+	padding: 15px 0;
+	font-size: 25px;
+	font-family: Microsoft YaHei,'宋体';
+}
+.lessonTeacher label{
+	font-family: Microsoft YaHei,'宋体';
+	display: inline-block;
+	padding: 5px 0;
+	font-size: 18px;
+	vertical-align: middle;
+}
+.lessonTeacher p{
+	padding: 5px 0;
+}
+.lessonTeacher img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.lessonInfo{
+/*    height: 90px;*/
+    line-height: 90px;
+}
+.info,.share{
+	display: inline-block;
+}
+.info{
+    width: 720px;
+}
+.info span{
+	padding-right:30px;
+	font-family: Microsoft YaHei,'宋体';
+}
+.info .starLearn{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	min-width: 220px;
+	background-color: #14598C;
+	color:white;
+	font-family: Microsoft YaHei,'宋体';
+	font-size: 20px;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+	float: right;
+	margin-top: 20px;
+}
+.share{
+	float: right;
+    height: 50px;
+    line-height: 50px;
+    padding:20px 0;
+}
+.share img{
+	height: 20px;
+	width: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.share span{
+	font-size: 15px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	font-family: Microsoft YaHei,'宋体';
+}
+/*课程详细信息*/
+.lessonContent{
+	min-height: 855px;
+}
+.contentLeft{
+	width: 740px;
+	min-height: 800px;
+	/*border: 1px solid blue;*/
+	float: left;
+}
+
+/*课程介绍*/
+.descript {
+	padding: 10px 20px;
+	border: 1px solid #B1B1B1;
+}
+.descript img{
+  display: block;
+  margin:auto;
+}
+.descript span{
+	display: block;
+	padding: 10px 0;
+}
+/*课程章节*/
+.section{
+	padding: 30px 20px;
+	border: 1px solid #B1B1B1;
+}
+.section div{
+	padding-bottom: 20px;
+}
+.section p{
+	padding: 10px 0;
+}
+.section span{
+	font-weight: bold;
+}
+/*推荐课程*/
+.commend_lesson {
+   margin-top: 10px;
+}
+
+.lesson_div {
+   margin: 10px 25px;
+}
+/*右侧同学信息*/
+.contentRight{
+	/*border: 1px solid black;*/
+	min-height: 850px;
+	width: 290px;
+	float: right;
+}
+/*我的同学*/
+.classMate_title{
+	text-align: center;
+}
+.classMate{
+	border: 1px solid #B1B1B1;
+	text-align: center;
+}
+.classMate img{
+	padding: 10px;
+}
+/*学霸动态*/
+.superStar{
+	margin-top: 30px;
+}
+.starInfo{
+    padding:0 15px;
+    height: 450px;
+    border: 1px solid #B1B1B1;
+    overflow-y: scroll;
+}
+.starInfo>div{
+	padding: 10px 0;
+	display: inline-block;
+	border-bottom: 2px solid #B1B1B1;
+}
+.starImg,.starTxt{
+	display: inline-block;
+	vertical-align: middle;
+}
+.starTxt{
+	width: 170px;
+	font-size: 15px;
+	font-family: Microsoft YaHei,'宋体';
+}

@@ -1,0 +1,57 @@
+/*课程中心中部内容样式*/
+.contex_mid{
+	height: 1030px;
+	width: 1040px;
+	margin: auto;
+/*	border: 1px solid red;*/
+	margin-top: 30px;
+}
+/*筛选框样式*/
+.body_select{
+	height: 210px;
+	border: 2px solid #BFBFBF;
+}
+.position,.classify,.rank{
+	height: 70px;
+	line-height: 70px;
+	margin:0 20px;
+	font-family: Microsoft YaHei,'宋体';
+}
+.position,.classify{
+	border-bottom: 2px solid #BFBFBF;
+}
+.select_position label,.select_classify label,.select_rank label{
+	color: rgb(153,156,160);
+}
+.select_position span,.select_classify span,.select_rank span{
+   padding: 10px;
+   margin: 0px 10px;
+   cursor: pointer;
+}
+.select_position span:hover,.select_classify span:hover,.select_rank span:hover{
+   background-color: #f3f3f3;
+}
+.select_upDown{
+	display: inline-block;
+	float: right;
+}
+.select_upDown input,.select_upDown label,.select_upDown select{
+	cursor: pointer;
+}
+/*课程位置内容样式*/
+.body_contex{
+    overflow: auto;
+    width: 100%;
+}
+.lesson_div{
+	margin: 10px 25px;
+}
+/*课程分页按钮*/
+.lessonPage{
+	text-align: center;
+	margin:10px 0;
+}
+/*推荐课程*/
+.commend_lesson{
+	margin-top: 10px;
+}

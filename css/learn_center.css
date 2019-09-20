@@ -1,0 +1,366 @@
+﻿/*课程详情样式*/
+.learn_mid{
+	width: 1150px;
+	min-height: 900px;
+	margin:auto;
+	margin-top:30px;
+	/*border: 1px solid red;*/
+}
+/*/////////////////////课程详情左侧样式/////////////////*/
+.learn_left{
+   min-height: 900px;
+   display: inline-block;
+   /*border: 1px solid blue;*/
+}
+/*用户信息*/
+.userInfo{
+   height: 150px;
+   width:270px;
+   background-color: #EEEEEE;
+   font-family: Microsoft YaHei,'宋体';
+   margin-bottom: 2px;
+   position: relative;
+}
+.infoContent{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top: -45px;
+   margin-left: -129px;
+   display: inline-block;
+}
+.userInfo img{
+   display: inline-block;
+   vertical-align: middle;
+   height: 80px;
+   width: 80px;
+   padding: 5px;
+}
+.userInfo>div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.user_msg{
+	display: inline-block;
+	vertical-align: middle;
+	color:#666666;
+}
+.user_msg div{
+	padding-top: 10px;
+}
+/*学习信息*/
+.learnInfo{
+   height:200px;
+   width: 270px ;
+   margin-top: 5px;
+   background-color: #EEEEEE;
+   position: relative;
+   font-family: Microsoft YaHei,'宋体';
+}
+.learn_msg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-top:-73px;
+   margin-left: -120px;
+}
+.learnTime{
+	padding-bottom: 20px;
+}
+.learn_msg label,.learn_msg span{
+  display: block;
+  padding: 5px 0;
+}
+.learn_msg label{
+	font-weight: bold;
+}
+.chongzhi{
+	display: inline-block;
+	position:absolute;
+	right: 15px;
+	bottom: 50px;
+}
+.chongzhi button{
+	height: 35px;
+    width: 60px;
+    margin:5px;
+    cursor: pointer;
+}
+.chongzhi button:hover{
+	color: blue;
+}
+
+/*左侧选项卡*/
+.learnTab ul{
+  text-align: left;
+  margin-top: 20px;
+  font-family: Microsoft YaHei,'宋体';
+}
+.learnTab ul li{
+  background-color: #EEEEEE;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+.learnTab ul li:hover{
+  background-color: #7EB1EB;
+  color: white;
+}
+.learnTab ul li span{
+	margin: 0 50px;
+}
+.blank{
+	margin-top: 2px;
+	height: 250px;
+	background-color: #EEEEEE;
+}
+/*////////////////////课程详情右侧样式///////////////////*/
+.learn_right{
+	display: inline-block;
+	min-height: 873px;
+	/*border: 1px solid green;*/
+	float: right;
+}
+.myLesson,.myTicket,.myNote,.myLearnRecord{
+	width: 850px;
+}
+/*////////////我的课程/////////////*/
+.nowLearn,.finishLearn,.wantLearn{
+    width: 850px;
+    min-height: 830px;
+    border: 1px solid #878787;
+}
+/*我的课程 在学*/
+#nowLearnContent .lesson_div{
+  margin: 20px 27px;
+}
+#nowLearnPage{
+  text-align: center;
+}
+/*我的课程 已学*/
+#finishLearnContent .lesson_div{
+  margin: 20px 27px;
+}
+#finishLearnPage{
+  text-align: center;
+}
+/*我的课程 想学*/
+#wantLearn_txt .lesson_div{
+	margin: 20px 27px;
+}
+#wantLearn_page{
+	text-align: center;
+}
+/*////////////我的订单//////////////*/
+/*我的订单 待支付*/
+.yesPay,.noPay{
+	width: 850px;
+	min-height: 500px;
+	border: 1px solid #878787;
+}
+/*订单表格样式*/
+/*.noPay_txt{
+    height: 430px;
+    overflow-y: scroll;
+}*/
+.noPayTable{
+	width:850px;
+  text-align: center;
+}
+.ticketTittle{
+	display: block;
+	background-color: #14598C;
+	color: white;
+	height: 35px;
+	line-height: 35px;
+	width: 850px;
+}
+/*.ticketTittle th{
+	width: 300px;
+}*/
+.ticketBody{
+    display: block;
+    height: 420px;
+    overflow: auto;
+}
+/*.ticketBody td{
+    width: 850px;
+}*/
+.noPayTicket{
+	background-color:#DDDDDD;
+	padding-bottom: 3px;
+}
+.noPayTicket:hover{
+	background-color: #7EB1EB;
+}
+.noPayTicket td{
+	border-bottom:3px solid white; 
+}
+.ticketName{
+	text-align: left;
+  padding-left: 10px;
+  width: 300px;
+}
+.ticketName span{
+  padding-left: 10px;
+}
+.ticketPrice,.ticketNum,.ticketTotal,.ticketDelete{
+  width: 130px;
+}
+.ticketDelete{
+  padding:0 10px;
+}
+.noPayTable span,.noPayTable img,.noPayTable input{
+	vertical-align: middle;
+}
+.noPayTable input{
+	height: 20px;
+	width: 20px;
+	text-align: center;
+}
+.noPayTable img{
+	cursor: pointer;
+}
+/*#noPay_page{
+	text-align:center;
+}*/
+.buyLesson span{
+   display: inline-block;
+}
+.totalDiv{
+    padding:20px 65px;
+    font-family: Microsoft YaHei,'宋体';
+    font-size: 18px;
+}
+.totalDiv span{
+    font-weight: bold;
+}
+.total{
+	display: inline-block;
+	float: right;
+}
+.btnDiv{
+	text-align: right;
+}
+.totalBtn{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 120px;
+    background-color: #14598C;
+    color:white;
+    text-align: center;
+    font-family: Microsoft YaHei,'宋体';
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:10px 50px;
+}
+/*我的订单 已支付*/
+#yesPayContent .lesson_div{
+  margin: 20px 27px;
+}
+#yesPayPage{
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*推荐课程*/
+.commend_lesson{
+	height: 180px;
+  border: 1px solid #BFBFBF;
+}
+.commend_lesson .lesson_div{
+  margin-top:20px;
+  padding: 10px 9px;
+}
+/*////////////我的笔记////////////*/
+.myNote{
+   min-height: 850px;
+ /*  border: 1px solid red;*/
+   font-family: Microsoft YaHei,'宋体';
+}
+.myNoteBar{
+  min-height: 100px;
+  border: 2px solid rgb(191,191,191);
+  padding: 10px 20px;
+  margin-bottom:10px;
+}
+.myNoteInfo{
+  height: 30px;
+  line-height: 30px;
+}
+.myNoteInfo>div{
+  display: inline-block;
+}
+.myNoteName{
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+.myNoteTime{
+  float: right;
+}
+.myNoteContent{
+  padding: 10px 0;
+}
+.myNoteContent>div{
+   display: inline-block;
+}
+.myNoteContent img{
+   vertical-align: middle;
+}
+.myNoteTxt{
+   vertical-align: top;
+   min-height: 100px;
+   width: 640px;
+   padding: 0 10px;
+}
+.myNoteTxt span{
+  font-size: 15px;
+  font-weight: bold;
+}
+.myNoteTxt label{
+  word-wrap: break-word;
+}
+.deleteMyNoteBar{
+  height: 20px;
+}
+.deleteMyNoteBar span{
+  float: right;
+  cursor: pointer;
+}
+.myNotePage{
+  text-align: center;
+}
+/*///////////我的学习记录////////////*/
+.myLearnRecord{
+  min-height: 850px;
+/*  border: 1px solid blue;*/
+}
+.recordBar{
+/*  min-height: 100px;*/
+  border: 5px solid rgb(191,191,191);
+  padding: 10px 20px;
+  margin-bottom:10px;
+  font-family: Microsoft YaHei,'宋体';
+}
+.recordBar>div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.recordContent{
+   display:inline-block;
+   padding: 0 20px;
+   width: 610px;
+}
+.recordContent span{
+   font-weight: bold;
+}
+.recordContent label{
+   cursor: pointer;
+   float: right;
+}
+.recordPage{
+  text-align: center;
+}
