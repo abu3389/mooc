@@ -239,7 +239,7 @@
     cursor: pointer;
 }
 .works_img p{
-	text-align: left;
+    text-align: left;
     line-height: 25px;
     font-family: Microsoft YaHei,'宋体';
 }
@@ -257,7 +257,7 @@
 /*********************我能学会吗？********************/
 /*心得体会*/
 .can_learn{
-	height: 520px;
+	height: 505px;
 	background-color: #BDC1C4;
 	text-align: center;
 	background:url("../img/bg_02.png");
@@ -267,7 +267,7 @@
 .can_mid{
     width: 939px;
     margin: auto;
-    padding-top: 30px;
+/*     padding-top: 30px; */
 }
 .can_mid div{
     font-size: 0;
